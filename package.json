@@ -1,0 +1,48 @@
+{
+  "name": "@dblk/magicmatcher",
+  "version": "1.0.0",
+  "description": "Compare to recordset to see closeMatch and update matcher rules for CICP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "private": true,
+  "plugin": {
+    "consumes": [
+      "matcher",
+      "configLoader"
+    ],
+    "provides": [
+        "magicMatcher"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dblk/magicmatcher"
+  },
+  "homepage": "https://github.com/dblk/magicmatcher#readme",
+  "keywords": [
+    "cicp",
+    "matcher",
+    "config",
+    "clean",
+    "duplicate",
+    "magic",
+    "yamp"
+  ],
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "4.17.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  },
+  "author": {
+    "name": "Remy Boulanouar",
+    "email": "admin@dblk.org"
+  },
+  "license": "MIT"
+}
